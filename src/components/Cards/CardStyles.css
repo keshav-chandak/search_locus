@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards > p {
+    margin-block-end: 0
+}
+
+.card-container {
+    list-style-type: none;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.card-container:focus {
+    background-color: #c4c4c4;
+}

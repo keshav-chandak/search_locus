@@ -1,0 +1,26 @@
+#searchInputContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px
+}
+
+.search-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+.search-box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-card-container {
+    max-height: 300px;
+    border: 1px solid grey;
+    overflow: auto;
+}

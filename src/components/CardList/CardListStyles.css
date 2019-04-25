@@ -1,0 +1,9 @@
+.card-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
